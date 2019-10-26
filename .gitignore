@@ -123,3 +123,7 @@ dmypy.json
 
 #VisualStudioCode
 /.vscode
+
+#Other 
+_info.txt
+**/migrations/**
