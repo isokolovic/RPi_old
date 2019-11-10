@@ -9,7 +9,7 @@ data = []
 GPIO.setmode(GPIO.BCM)
 
 GPIO.setup(4, GPIO.OUT)
-GPIO.output(4, GPIO.HIGHT)
+GPIO.output(4, GPIO.HIGH)
 time.sleep(0.025)
 GPIO.output(4, GPIO.LOW)
 time.sleep(0.02)
