@@ -124,8 +124,8 @@ dmypy.json
 
 #VisualStudioCode
 # /.vscode
-/RPi_old
-/vcpkg-master
+# /RPi_old
+# /vcpkg-master
 /venv
 
 #Other 
