@@ -1,5 +1,8 @@
 from django.shortcuts import render
+from .models import DHT11_model
 
 # Create your views here.
-def return_sensors_homepage(request):
-    return render(request, 'home_sensors.html', {})
+class SensorsView():
+    def DHT11_view(request):
+        data = DHT11_model.objects()
+        return render (request, 'DHT11/DHT11.html', {'data': data})

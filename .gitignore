@@ -123,7 +123,10 @@ dmypy.json
 # End of https://www.gitignore.io/api/django
 
 #VisualStudioCode
-/.vscode
+# /.vscode
+/RPi_old
+/vcpkg-master
+/venv
 
 #Other 
 _info.txt
