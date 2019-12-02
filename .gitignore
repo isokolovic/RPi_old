@@ -131,3 +131,4 @@ dmypy.json
 #Other 
 _info.txt
 **/migrations/**
+RPi/superuser

@@ -9,7 +9,8 @@ def temperature_humidity():
         humidity, temperature = [1, 2] #TEMPORARY
     
         if humidity is not None and temperature is not None:
-            return('Temp={0:0.1f}*  Humidity{1:0.1f}%'.format(temperature,humidity))
+            # return('Temp={0:0.1f}*  Humidity{1:0.1f}%'.format(temperature,humidity))
+            return [1,2]
             # print('Temp={0:0.1f}*  Humidity{1:0.1f}%'.format(temperature,humidity))
         else:
             return('Error')            
