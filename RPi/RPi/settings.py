@@ -25,7 +25,7 @@ SECRET_KEY = 'e512o-2$!9!0jx5trm8sz#j8h*3d!%%rn2qsu_8(iwk#n1s6oc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.8.106', '127.0.0.1',]
+ALLOWED_HOSTS = ['192.168.8.100', '127.0.0.1',]
 
 
 # Application definition
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'RPi.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['RPi/templates', 'Sensors/templates'],
+        'DIRS': [BASE_DIR + '/RPi/templates', BASE_DIR +'/Sensors/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
