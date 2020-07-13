@@ -17,5 +17,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('DHT11', views.SensorsView.DHT11_view, name = 'DHT11'),
+    path('', views.SensorsView.sensors_homepage, name = 'home_sensors'),
 ]
