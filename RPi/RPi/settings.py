@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Sensors.apps.SensorsConfig',
+    'django_celery_results',
 ]
 
 MIDDLEWARE = [
